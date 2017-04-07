@@ -46,6 +46,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.picIcone = New System.Windows.Forms.PictureBox()
+        Me.btnSalvar = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -213,7 +214,7 @@ Partial Class Form1
         '
         'btnSair
         '
-        Me.btnSair.Location = New System.Drawing.Point(195, 296)
+        Me.btnSair.Location = New System.Drawing.Point(241, 300)
         Me.btnSair.Name = "btnSair"
         Me.btnSair.Size = New System.Drawing.Size(75, 23)
         Me.btnSair.TabIndex = 4
@@ -263,11 +264,21 @@ Partial Class Form1
         Me.picIcone.TabIndex = 15
         Me.picIcone.TabStop = False
         '
+        'btnSalvar
+        '
+        Me.btnSalvar.Location = New System.Drawing.Point(160, 300)
+        Me.btnSalvar.Name = "btnSalvar"
+        Me.btnSalvar.Size = New System.Drawing.Size(75, 23)
+        Me.btnSalvar.TabIndex = 16
+        Me.btnSalvar.Text = "Salvar"
+        Me.btnSalvar.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(477, 329)
+        Me.ClientSize = New System.Drawing.Size(477, 335)
+        Me.Controls.Add(Me.btnSalvar)
         Me.Controls.Add(Me.picIcone)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -313,5 +324,6 @@ Partial Class Form1
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents TxtY As System.Windows.Forms.TextBox
     Friend WithEvents txtX As System.Windows.Forms.TextBox
+    Friend WithEvents btnSalvar As System.Windows.Forms.Button
 
 End Class

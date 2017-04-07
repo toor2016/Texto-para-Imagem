@@ -74,16 +74,12 @@ Public Class Form1
             objGraphics.DrawString(txtTexto.Text, objFont, objBrushForeColor, objPoint)
 
             ' Desenha a primeira imagem a esquerda da nova imagen
-            objGraphics.DrawImage(picIcone.Image, 0, 0)
+            objGraphics.DrawImage(picIcone.Image, 0, Convert.ToInt32(TxtY.Text))
 
             ' Desenha a segunda imagem a direita
             objGraphics.DrawImage(picIcone.Image, objBitmap.Width, 0)
 
-            'salva e exibe a imagem gerada
-            objBitmap.Save(txtNomeArquivo.Text & ".bmp", ImageFormat.Bmp)
-
             picImagem.Image = objBitmap
-
 
         Catch ex As Exception
             MessageBox.Show("Erro : " & ex.Message)
@@ -92,5 +88,10 @@ Public Class Form1
 
     Private Sub btnSair_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnSair.Click
         Application.Exit()
+    End Sub
+
+    Private Sub btnSalvar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSalvar.Click
+        'salva e exibe a imagem gerada
+        picImagem.Image.Save(txtNomeArquivo.Text & ".bmp", ImageFormat.Bmp)
     End Sub
 End Class
