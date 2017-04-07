@@ -1,0 +1,9 @@
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\bin\Debug\Texto para Imagem.exe
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\bin\Debug\Texto para Imagem.pdb
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\bin\Debug\Texto para Imagem.xml
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto_para_Imagem.Form1.resources
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto_para_Imagem.Resources.resources
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.vbproj.GenerateResource.Cache
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.exe
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.xml
+c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.pdb

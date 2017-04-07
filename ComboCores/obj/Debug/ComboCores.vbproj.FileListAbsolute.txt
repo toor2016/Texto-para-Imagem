@@ -1,0 +1,2 @@
+c:\_vbn\VBNET_Texto_Imagem\ComboCores\obj\Debug\ComboCores.Resources.resources
+c:\_vbn\VBNET_Texto_Imagem\ComboCores\obj\Debug\ComboCores.vbproj.GenerateResource.Cache
