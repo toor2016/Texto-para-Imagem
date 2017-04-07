@@ -81,4 +81,60 @@ Public Class Form1
     Private Sub btnSair_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnSair.Click
         Application.Exit()
     End Sub
+
+    Private Sub txtNomeArquivo_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNomeArquivo.Leave
+        'Dim messageBoxText As String = "Do you want to save changes?"
+        Dim caption As String = "Word Processor"
+        Dim button As MessageBoxButtons = MessageBoxButtons.YesNoCancel
+        Dim icon As MessageBoxIcon = MessageBoxIcon.Warning
+        'Dim result As MsgBoxResult = MessageBox.Show(messageBoxText, caption, button, icon)
+
+        If txtNomeArquivo.Text = "" Then
+            MessageBox.Show("O caminho não pode estar vazio!")
+        End If
+        If Not (My.Computer.FileSystem.DirectoryExists(txtNomeArquivo.Text)) Then
+            MessageBox.Show("Diretório não existe!")
+            Dim result = MessageBox.Show("O diretório" + txtNomeArquivo.Text + "pode ser criado?", caption, button, icon)
+            Select Case result
+                Case MsgBoxResult.Yes
+                    ' User pressed Yes button
+                    My.Computer.FileSystem.CreateDirectory(txtNomeArquivo.Text)
+                Case MsgBoxResult.No
+                    ' User pressed No button
+                    ' ...
+                Case MsgBoxResult.Cancel
+                    ' User pressed Cancel button
+                    ' ...
+            End Select
+
+        End If
+
+
+    End Sub
+
+    Private Sub txtLargura_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtLargura.Leave
+        If (txtLargura.Text = "") Then
+            MessageBox.Show("Largura deve ser definida!", "Validação", MessageBoxButtons.OK)
+        End If
+    End Sub
+
+    Private Sub txtAltura_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtAltura.Leave
+        If (txtAltura.Text = "") Then
+            MessageBox.Show("Altura deve ser definida!", "Validação", MessageBoxButtons.OK)
+        End If
+    End Sub
+
+
+    Private Sub txtX_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtX.Leave
+        If (txtX.Text = "") Then
+            MessageBox.Show("Posicionamento X deve ser definido!", "Validação", MessageBoxButtons.OK)
+        End If
+    End Sub
+
+
+    Private Sub TxtY_Leave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TxtY.Leave
+        If (TxtY.Text = "") Then
+            MessageBox.Show("Posicionamento X deve ser definido!", "Validação", MessageBoxButtons.OK)
+        End If
+    End Sub
 End Class

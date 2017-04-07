@@ -7,3 +7,12 @@ c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imag
 c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.exe
 c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.xml
 c:\users\rodrigo bussolo_2\documents\visual studio 2010\Projects\Texto para Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.xml
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\obj\x86\Debug\Texto_para_Imagem.Form1.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\obj\x86\Debug\Texto_para_Imagem.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\obj\x86\Debug\Texto para Imagem.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\bin\Debug\Texto para Imagem.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\bin\Debug\Texto para Imagem.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Texto-para-Imagem\Texto para Imagem\bin\Debug\Texto para Imagem.xml
