@@ -45,12 +45,12 @@ Partial Class Form1
         Me.picImagem = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.picIcone = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.picImagem, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picIcone, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -253,22 +253,22 @@ Partial Class Form1
         Me.Label5.TabIndex = 14
         Me.Label5.Text = "Imagem"
         '
-        'PictureBox1
+        'picIcone
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(21, 213)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(16, 11)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox1.TabIndex = 15
-        Me.PictureBox1.TabStop = False
+        Me.picIcone.Image = CType(resources.GetObject("picIcone.Image"), System.Drawing.Image)
+        Me.picIcone.Location = New System.Drawing.Point(21, 213)
+        Me.picIcone.Name = "picIcone"
+        Me.picIcone.Size = New System.Drawing.Size(16, 11)
+        Me.picIcone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.picIcone.TabIndex = 15
+        Me.picIcone.TabStop = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(477, 329)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.picIcone)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.picImagem)
@@ -285,7 +285,7 @@ Partial Class Form1
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         CType(Me.picImagem, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picIcone, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -307,7 +307,7 @@ Partial Class Form1
     Friend WithEvents txtNomeArquivo As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents picIcone As System.Windows.Forms.PictureBox
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label

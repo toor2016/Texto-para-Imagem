@@ -1,9 +1,11 @@
 ﻿Imports System.Drawing
 Imports System.Drawing.Imaging
+Imports System.Drawing.Image
 Imports System
 Imports System.Drawing.Text
 Imports System.Windows.Forms
 Imports System.Windows.Forms.TextBox
+Imports System.Windows.Forms.PictureBox
 
 Public Class Form1
     Dim FontNome As String = "Segoe UI"
@@ -68,11 +70,21 @@ Public Class Form1
             'Cria um retãngulo usando o objeto Graphics 
             objGraphics.FillRectangle(objBrushBackColor, 0, 0, 500, 500)
             'Desenha o texto no retângulo usando o objeto Graphics
+
             objGraphics.DrawString(txtTexto.Text, objFont, objBrushForeColor, objPoint)
+
+            ' Desenha a primeira imagem a esquerda da nova imagen
+            objGraphics.DrawImage(picIcone.Image, 0, 0)
+
+            ' Desenha a segunda imagem a direita
+            objGraphics.DrawImage(picIcone.Image, objBitmap.Width, 0)
+
             'salva e exibe a imagem gerada
             objBitmap.Save(txtNomeArquivo.Text & ".bmp", ImageFormat.Bmp)
+
             picImagem.Image = objBitmap
-            'MessageBox.Show("Imagem criada com sucesso.")
+
+
         Catch ex As Exception
             MessageBox.Show("Erro : " & ex.Message)
         End Try
